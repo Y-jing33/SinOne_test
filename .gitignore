@@ -1,0 +1,62 @@
+# Keil uVision项目文件
+*.uvgui.*
+*.uvopt
+*.bak
+*.orig
+*.lst
+*.obj
+*.o
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.d
+*.crf
+*.htm
+*.sct
+*.tra
+*.plg
+*.build_log.htm
+
+# 编译输出目录
+Objects/
+Listings/
+Output/
+DebugConfig/
+
+# 临时文件
+Temp/
+*.tmp
+*.temp
+
+# 系统文件
+Thumbs.db
+.DS_Store
+*~
+*.swp
+*.swo
+
+# IDE配置文件（保留项目文件，但忽略用户特定的配置）
+*.uvguix.*
+*.uvoptx
+.settings/
+.project
+.cproject
+
+# 日志文件
+*.log
+
+# 压缩文件（保留源码包用于参考）
+# *.rar
+# *.zip
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# 其他IDE
+.idea/
+*.sublime-*
+

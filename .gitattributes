@@ -1,0 +1,52 @@
+# 自动检测文本文件并执行LF规范
+* text=auto
+
+# 源代码文件
+*.c text
+*.h text
+*.H text
+*.s text
+*.S text
+*.asm text
+*.A51 text
+
+# 项目文件
+*.uvproj text
+*.uvprojx text
+*.sct text
+
+# 文档文件
+*.md text
+*.txt text
+*.rtf text
+
+# 二进制文件
+*.pdf binary
+*.rar binary
+*.zip binary
+*.7z binary
+*.tar.gz binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.bin binary
+*.hex binary
+*.axf binary
+*.obj binary
+*.o binary
+
+# 图片文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+*.svg text
+
+# Keil特定文件
+*.uvgui.* binary
+*.uvopt binary
+*.dep binary
+*.crf binary
